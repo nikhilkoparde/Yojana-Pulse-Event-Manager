@@ -1,0 +1,138 @@
+/* button{
+    color: rgb(39, 37, 37);
+    float: right;
+    margin-left: 20px;
+} */
+
+.mainname{
+
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+/*for progress*/
+.progress-bar-container {
+	margin: 20px;
+  }
+  
+  .progress-bar {
+	width: 100%;
+  }
+
+.color-picker {
+  padding: 0px;
+}
+
+.color-preview {
+  width: 70px;
+  height: 30px;
+  margin-top: 10px;
+}
+.qrcodediv{
+    float: right;
+    margin-right: 20px;
+   padding: 5px;
+   margin-top: 0px;
+
+}
+.heading{
+    border: 2px solid black;
+}
+.mymodal{
+    float: left;
+    margin-left: 90px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.header{
+    align-items: center; 
+    margin-left: 600px;
+}
+
+.homeimg{
+    height:max-content;
+}
+.divbtntoview{
+align-items: center;
+margin-left: 50px;
+}
+
+.partipationbox{
+    border: 2px solid black;
+    box-shadow: 5px;
+    border-radius: 5px;
+   
+}
+.card-content>h6{
+    margin-left: 100px;
+}
+
+
+.dashboard {
+    display: flex;
+    height: 100vh; /* Make the dashboard fill the entire viewport height */
+  }
+  
+  .sidebar {
+    width: 250px; /* Set the width of the sidebar */
+    background-color: #f0f0f0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+  }
+  
+  .sidebar a,
+  .sidebar button {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar a:hover,
+  .sidebar button:hover {
+    background-color: #ddd;
+  }
+  
+  .main-content {
+    flex: 1; /* Make the main content fill the remaining space */
+    padding: 20px;
+  }
+  
+  .widgets {
+    display: flex;
+  }
+  
+  .widget {
+    flex: 1; /* Make the widgets fill the available space evenly */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  
+  .widget:last-child {
+    margin-right: 0;
+  }
+  
+  .btn{
+
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+        color: inherit; /* Inherit text color */
+        font: inherit; /* Inherit font */
+        text-align: inherit;
+        width: 100%; /* Inherit text alignment */
+      }
+  

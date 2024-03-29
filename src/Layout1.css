@@ -1,0 +1,58 @@
+:root {
+    --background-dark: #1c1c1c;
+    --text-light: #333333;
+    --background-light: #ffffff;
+    --text-dark: #f0f0f0;
+}
+
+.App {
+    background-color: var(--background-light);
+    color: var(--text-light);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.App.dark {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+}
+
+
+.modebtn {
+    background: none;
+    border: none;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+color: rgb(0, 0, 0);
+font-weight: lighter;
+   
+    padding: 2px;
+    width: 90px;
+    height: 20px;
+    font-family: 'Montserrat', sans-serif;
+ 
+    cursor: pointer;
+    width: 220px;
+
+  }
+
+button .modebtn {
+    background-color: #3e3e89;
+
+
+}
+
+.nav-item {
+    font-weight: bold;
+    padding: 2px;
+    width: 90px;
+    height: 20px;
+
+
+}
+
+.modebtn {
+    font-weight: bold;
+    padding: 2px;
+    
+
+}

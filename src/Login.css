@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: poppins;
+	background: #88a9f0;
+}
+a {
+	text-decoration: none;
+  }
+.form-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.wrapperx {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	padding: 20px;
+	width: 800px;
+	height: 500px;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.img-area {
+	flex: 1;
+	padding: 20px;
+	text-align: center;
+}
+.img-area img {
+	max-width: 100%;
+	height: auto;
+}
+.form-area {
+	flex: 1;
+	padding: 20px;
+	background-color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.form-area h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.single-form {
+	margin-bottom: 20px;
+}
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+input[type="submit"] {
+	background-color: #007BFF;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+@media (max-width: 768px) {
+	.wrapper {
+		flex-direction: column;
+		text-align: center;
+		height: auto;
+		width: auto;
+	}
+	.img-area, .form-area {
+		flex: none;
+	}
+	.img-area {
+		margin-bottom: 20px;
+	}
+}
+
+.loginname{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+	color: rgb(25, 25, 25);
+}
